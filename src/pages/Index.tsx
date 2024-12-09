@@ -93,7 +93,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Getting Started Section */}
+  {/* Getting Started Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="animate-on-scroll opacity-0">
@@ -107,7 +107,7 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   className="bg-coral-300 hover:bg-coral-400 text-white flex items-center justify-center gap-2"
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://www.leal.health', '_blank')}
                 >
                   Learn more about Leal
                   <span className="inline-block transform translate-y-[1px]">→</span>
