@@ -167,7 +167,7 @@ const resources = [
   {
     title: "Take back control",
     description: "I have been thinking a lot about Control lately. How the second you get diagnosed you lose control over your life. It doesn't matter if you are a control freak [...]",
-    url: "#"
+    url: "https://www.leal.health/post/take-back-control"
   },
   {
     title: "Managing Sleep and Fatigue During Cancer Treatment",
