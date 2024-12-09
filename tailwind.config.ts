@@ -19,11 +19,42 @@ export default {
     },
     extend: {
       colors: {
+        border: "hsl(var(--border))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
         coral: {
           50: "#fff1f0",
           100: "#ffe4e1",
           200: "#ffc9c2",
-          300: "#ff8e7b", // Primary
+          300: "#ff8e7b",
           400: "#ff5c43",
           500: "#ff3616",
           600: "#ff1800",
@@ -34,9 +65,14 @@ export default {
           200: "#b8d7d7",
           300: "#8ab9b9",
           400: "#5c9b9b",
-          500: "#2d4b4d", // Secondary
+          500: "#2d4b4d",
           600: "#244042",
         },
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
       },
       animation: {
         "fade-up": "fadeUp 0.5s ease-out forwards",
