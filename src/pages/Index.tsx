@@ -93,7 +93,7 @@ const Index = () => {
         </div>
       </section>
 
-  {/* Getting Started Section */}
+      {/* Getting Started Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="animate-on-scroll opacity-0">
@@ -138,7 +138,7 @@ const Index = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-forest-500 mb-4">{resource.title}</h3>
                   <p className="text-gray-600 mb-4">{resource.description}</p>
-                  <Button variant="link" className="text-coral-400 hover:text-coral-500 p-0">
+                  <Button variant="link" className="text-coral-400 hover:text-coral-500 p-0" onClick={() => window.open(resource.url, '_blank')}>
                     Read more →
                   </Button>
                 </div>
@@ -162,14 +162,17 @@ const resources = [
   {
     title: "Money Tips for People with Cancer",
     description: "A cancer diagnosis will necessitate a series of scans, meetings with doctors, second opinions, biopsies, surgeries, treatment, recovery, and so much more.",
+    url: "https://www.leal.health/post/money-tips-from-a-cancer-survivor"
   },
   {
     title: "Take back control",
     description: "I have been thinking a lot about Control lately. How the second you get diagnosed you lose control over your life. It doesn't matter if you are a control freak [...]",
+    url: "#"
   },
   {
     title: "Managing Sleep and Fatigue During Cancer Treatment",
     description: "Dr. Sonia Ancoli-Israel Ph.D. is Professor Emeritus and Professor of Research in the Center of Circadian Biology at the University of California San Diego School of Medicine.",
+    url: "#"
   },
 ];
 
