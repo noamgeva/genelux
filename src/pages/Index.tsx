@@ -29,7 +29,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <img
-              src="/lovable-uploads/820e458f-e667-40ee-b3af-c3ec8bfcb6bc.png"
+              src="/lovable-uploads/4528e0f2-36fc-484b-a35d-ce538e29ffee.png"
               alt="Leal Health Logo"
               className="h-8"
             />
