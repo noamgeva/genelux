@@ -46,9 +46,17 @@ const Index = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-forest-500 mb-6 animate-fade-down">
             Genelux Patients Come First Support Program
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8 animate-fade-up">
-            The OnPrime Study is evaluating innovative treatments for platinum-resistant/refractory ovarian cancer, focusing on patient care and support.
-          </p>
+          <div className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8 animate-fade-up space-y-4">
+            <p>
+              The OnPrime study is a multi-center, randomized open-label phase 3 study evaluating the safety and efficacy of Olvi-Vec followed by platinum-doublet chemotherapy and bevacizumab compared to the Active Comparator Arm with Physician's Choice of chemotherapy and bevacizumab in women diagnosed with platinum-resistant/refractory ovarian cancer (includes fallopian tube cancer and primary peritoneal cancer).
+            </p>
+            <p>
+              This Phase III trial builds on the efficacy and safety data reported in the previous Phase II VIRO-15 trial with promising objective response rate and progression-free survival observed in heavily pre-treated patients with platinum-resistant/refractory ovarian cancer.
+            </p>
+            <p>
+              The phase II results also showed that the intra-peritoneal route of delivery was efficient in generating tumor cell killing and immune activation, and led to clinical reversal of platinum-resistance or refractoriness in this difficult-to-treat patient population.
+            </p>
+          </div>
         </div>
       </section>
 
