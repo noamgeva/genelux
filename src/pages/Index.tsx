@@ -33,9 +33,6 @@ const Index = () => {
               className="h-8"
             />
           </div>
-          <Button variant="ghost" className="text-forest-500 hover:text-forest-600">
-            Login
-          </Button>
         </div>
       </nav>
 
