@@ -83,7 +83,7 @@ const Index = () => {
             </p>
             <div className="text-center">
               <Button 
-                className="bg-forest-500 hover:bg-forest-600 text-white"
+                className="bg-forest-500 hover:bg-forest-600 text-white text-lg px-8 py-6 h-auto"
                 onClick={() => window.open('https://webapp.leal.health/signup?condition=ovarian-cancer&customer_ref=genelux', '_blank')}
               >
                 Patients Come First Support Program →
