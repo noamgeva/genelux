@@ -101,15 +101,24 @@ const Index = () => {
               Getting Support:
             </h2>
             <div className="glass-card p-8 rounded-lg max-w-3xl">
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-lg text-gray-600 mb-6 text-left">
                 Leal's Support Program is 100% free for all people with cancer. There are no hidden fees, no insurance requirements, and this service is fully available in the United States & Canada.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="bg-coral-300 hover:bg-coral-400 text-white">
-                  About Leal
+                <Button 
+                  className="bg-coral-300 hover:bg-coral-400 text-white flex items-center justify-center gap-2"
+                  onClick={() => window.open('#', '_blank')}
+                >
+                  Learn more about Leal
+                  <span className="inline-block transform translate-y-[1px]">→</span>
                 </Button>
-                <Button variant="outline" className="text-forest-500 border-forest-500">
-                  Genelux, and OnPrime
+                <Button 
+                  variant="outline" 
+                  className="text-forest-500 border-forest-500 flex items-center justify-center gap-2"
+                  onClick={() => window.open('#', '_blank')}
+                >
+                  Learn more about Genelux, & OnPrime
+                  <span className="inline-block transform translate-y-[1px]">→</span>
                 </Button>
               </div>
             </div>
