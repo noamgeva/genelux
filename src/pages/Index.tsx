@@ -172,7 +172,7 @@ const resources = [
   {
     title: "Managing Sleep and Fatigue During Cancer Treatment",
     description: "Dr. Sonia Ancoli-Israel Ph.D. is Professor Emeritus and Professor of Research in the Center of Circadian Biology at the University of California San Diego School of Medicine.",
-    url: "#"
+    url: "https://www.leal.health/post/cancer-treatment-sleep-fatigue-light"
   },
 ];
 
