@@ -115,7 +115,7 @@ const Index = () => {
                 <Button 
                   variant="outline" 
                   className="text-forest-500 border-forest-500 flex items-center justify-center gap-2"
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://genelux.com/', '_blank')}
                 >
                   Learn more about Genelux, & OnPrime
                   <span className="inline-block transform translate-y-[1px]">→</span>
