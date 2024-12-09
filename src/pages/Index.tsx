@@ -24,7 +24,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
@@ -76,8 +75,11 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-forest-500 mb-8 text-center">
               Welcome To Leal!
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center mb-6">
               Leal is a patient-first precision cancer care platform dedicated to improving your access to cancer treatments, and direct support with financial, scheduling, and other needs. We've helped more than 225,000 people with cancer and are ready to help you too in partnership with Genelux.
+            </p>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center mb-12">
+              <span className="font-semibold">Getting Started:</span> Genelux has partnered with Leal to help you stay on schedule for testing, diagnostics, doctors visits, as well as help direct you to key support resources such as lodging, transportation, and more.
             </p>
           </div>
         </div>
