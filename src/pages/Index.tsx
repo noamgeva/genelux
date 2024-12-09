@@ -77,7 +77,7 @@ const Index = () => {
               Welcome To Leal!
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center mb-12">
-              Leal is a Patient-First Precision Cancer Care Platform dedicated to improving your access to cancer treatments, and direct support with financial, scheduling, and other needs.
+              Leal is a patient-first precision cancer care platform dedicated to improving your access to cancer treatments, and direct support with financial, scheduling, and other needs. We've helped more than 225,000 people with cancer and are ready to help you too in partnership with Genelux.
             </p>
           </div>
         </div>
