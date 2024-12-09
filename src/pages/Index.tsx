@@ -81,12 +81,14 @@ const Index = () => {
             <p className="text-lg text-white max-w-3xl mb-8">
               <span className="font-semibold">Getting Started:</span> Genelux has partnered with Leal to help you stay on schedule for testing, diagnostics, doctors visits, as well as help direct you to key support resources such as lodging, transportation, and more.
             </p>
-            <Button 
-              className="bg-forest-500 hover:bg-forest-600 text-white"
-              onClick={() => window.open('https://webapp.leal.health/signup?condition=ovarian-cancer&customer_ref=genelux', '_blank')}
-            >
-              Patients Come First Support Program →
-            </Button>
+            <div className="text-center">
+              <Button 
+                className="bg-forest-500 hover:bg-forest-600 text-white"
+                onClick={() => window.open('https://webapp.leal.health/signup?condition=ovarian-cancer&customer_ref=genelux', '_blank')}
+              >
+                Patients Come First Support Program →
+              </Button>
+            </div>
           </div>
         </div>
       </section>
