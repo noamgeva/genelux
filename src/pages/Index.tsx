@@ -72,15 +72,21 @@ const Index = () => {
       <section className="py-20 px-4 bg-coral-50">
         <div className="container mx-auto">
           <div className="animate-on-scroll opacity-0">
-            <h2 className="text-3xl md:text-4xl font-bold text-forest-500 mb-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-forest-500 mb-8">
               Welcome To Leal!
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center mb-6">
+            <p className="text-lg text-gray-600 max-w-3xl mb-6">
               Leal is a patient-first precision cancer care platform dedicated to improving your access to cancer treatments, and direct support with financial, scheduling, and other needs. We've helped more than 225,000 people with cancer and are ready to help you too in partnership with Genelux.
             </p>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            <p className="text-lg text-gray-600 max-w-3xl mb-8">
               <span className="font-semibold">Getting Started:</span> Genelux has partnered with Leal to help you stay on schedule for testing, diagnostics, doctors visits, as well as help direct you to key support resources such as lodging, transportation, and more.
             </p>
+            <Button 
+              className="bg-forest-500 hover:bg-forest-600 text-white"
+              onClick={() => window.open('https://webapp.leal.health/signup?condition=ovarian-cancer&customer_ref=genelux', '_blank')}
+            >
+              Patients Come First Support Program →
+            </Button>
           </div>
         </div>
       </section>
